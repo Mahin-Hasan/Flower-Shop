@@ -99,3 +99,20 @@ body {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
+
+/* delivery-section */
+.delivery-section {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 0px 240px 0px 240px;
+}
+.delivery-section div{
+    padding: 86px 0;
+}
