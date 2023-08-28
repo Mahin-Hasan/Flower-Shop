@@ -13,6 +13,14 @@ body {
     padding: 18px 35px;
 }
 
+.bottom-margin {
+    margin-bottom: 128px;
+}
+
+.fixed-padding {
+    padding: 0px 240px 0px 240px;
+}
+
 /* Header styles */
 .header {
     background: rgba(229, 84, 115, 0.10);
@@ -22,17 +30,72 @@ body {
     padding: 30px 240px 0px 240px;
 }
 
-.header-content > h1 {
+.header-content>h1 {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
     margin-bottom: 32px;
 }
 
-.header-content > p {
+.header-content>p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 32px;
+}
+
+/* Featured Flower Section */
+.featured-section>h3 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.featured-section>p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 646px 48px 646px;
+}
+
+.featured-flowers-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured-flowers-container p {
+    text-align: center;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.pink-flower {
+    width: 310px;
+    height: 410px;
+    padding: 50px 40px 0 40px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.red-flower {
+    width: 310px;
+    height: 410px;
+    padding: 50px 40px 0 40px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.yellow-flower {
+    width: 310px;
+    height: 410px;
+    padding: 50px 40px 0 40px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
 }
