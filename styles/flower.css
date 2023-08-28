@@ -196,6 +196,27 @@ body {
     width: 40%;
 }
 
+/* Bonus Section */
+.photo-gallary-section {
+    margin-bottom: 190px;
+}
+
+.photo-gallary-section h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.photo-collage img {
+    width: 342px;
+    height: 396px;
+}
+
+.neg-margin {
+    margin-bottom: -100px;
+}
+
 /* Footer Section */
 footer {
     background: #111010;
