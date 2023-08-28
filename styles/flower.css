@@ -183,10 +183,11 @@ body {
     font-weight: 400;
 }
 
-.coupon-form{
+.coupon-form {
     padding-bottom: 122px;
 }
-.coupon-form input[type="email"]{
+
+.coupon-form input[type="email"] {
     margin-bottom: 25px;
     padding: 22px 35px;
     color: #757575;
@@ -194,4 +195,32 @@ body {
     background: #FFF;
     border: 0;
     width: 40%;
+}
+
+/* Footer Section */
+footer {
+    background: #111010;
+    text-align: center;
+}
+
+.footer-section h3 {
+    padding-top: 128px;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 649px;
+}
+
+.footer-copywrite {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 32px;
+    padding-bottom: 128px;
 }
