@@ -21,6 +21,10 @@ body {
     padding: 0px 240px 0px 240px;
 }
 
+.text-pink {
+    color: #E55473;
+}
+
 /* Header styles */
 .header {
     background: rgba(229, 84, 115, 0.10);
@@ -111,8 +115,39 @@ body {
     text-align: center;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin: 0px 240px 0px 240px;
+    margin: 0px 240px 128px 240px;
 }
-.delivery-section div{
+
+.delivery-section div {
     padding: 86px 0;
+}
+
+/* Hot deals section */
+.hot-deals-section {
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 240px 0px 240px;
+}
+
+.hot-deals-info {
+    text-align: center;
+    max-width: 585px;
+}
+
+.hot-deals-info h3 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.hot-deals-info p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.hot-deals-section img{
+    margin: 100px 0;
 }
