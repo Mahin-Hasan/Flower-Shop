@@ -156,8 +156,42 @@ body {
 }
 
 /* Instagram Section */
-.flower-collage{
+.flower-collage {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 20px;
+}
+
+/* latest deals section */
+.latest-deals-section {
+    border-radius: 8px;
+    background: url('../images/Rectangle\ 9.png'), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    margin: 0px 240px 128px 240px;
+    text-align: center;
+}
+
+.latest-deals-section h3 {
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 122px;
+    margin-bottom: 24px;
+}
+
+.latest-deals-section p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.coupon-form{
+    padding-bottom: 122px;
+}
+.coupon-form input[type="email"]{
+    margin-bottom: 25px;
+    padding: 22px 35px;
+    color: #757575;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    width: 40%;
 }
