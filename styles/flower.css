@@ -85,7 +85,7 @@ body {
 .pink-flower {
     width: 310px;
     height: 410px;
-    padding: 50px 40px 0 40px;
+    padding: 115px 70px 0 70px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 }
@@ -93,16 +93,14 @@ body {
 .red-flower {
     width: 310px;
     height: 410px;
-    padding: 50px 40px 0 40px;
-    border-radius: 300px 300px 0px 0px;
+    padding: 115px 70px 0 70px;    border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
 
 .yellow-flower {
     width: 310px;
     height: 410px;
-    padding: 50px 40px 0 40px;
-    border-radius: 300px 300px 0px 0px;
+    padding: 115px 70px 0 70px;    border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
 
