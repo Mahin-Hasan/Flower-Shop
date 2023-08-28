@@ -207,10 +207,14 @@ body {
     font-weight: 800;
     margin-bottom: 40px;
 }
+.photo-collage{
+    margin-right: -5px;
+}
 
 .photo-collage img {
     width: 342px;
     height: 396px;
+    margin-right: 6px;
 }
 
 .neg-margin {
