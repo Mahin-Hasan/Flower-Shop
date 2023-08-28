@@ -50,7 +50,8 @@ body {
 }
 
 /* Featured Flower Section */
-.featured-section>h3 {
+.featured-section>h3,
+.instagram-section>h3 {
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -58,7 +59,8 @@ body {
     margin-bottom: 24px;
 }
 
-.featured-section>p {
+.featured-section>p,
+.instagram-section>p {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -148,6 +150,14 @@ body {
     font-weight: 400;
     margin-bottom: 32px;
 }
-.hot-deals-section img{
+
+.hot-deals-section img {
     margin: 100px 0;
+}
+
+/* Instagram Section */
+.flower-collage{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
