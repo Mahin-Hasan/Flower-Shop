@@ -2,6 +2,14 @@
 body {
     font-family: 'Work Sans', sans-serif;
 }
+.fixed-width{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.full-width{
+    width: 100%;
+    margin: 0 auto;
+}
 
 .primary-btn {
     border-radius: 5px;
@@ -31,7 +39,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 240px 0px 240px;
+    /* padding: 30px 240px 0px 240px; */
 }
 
 .header-content>h1 {
@@ -65,7 +73,8 @@ body {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    margin: 0 646px 48px 646px;
+    /* margin: 0 646px 48px 646px; */
+    margin-bottom: 48px;
 }
 
 .featured-flowers-container {
@@ -115,7 +124,8 @@ body {
     text-align: center;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin: 0px 240px 128px 240px;
+    margin-bottom: 128px;
+    /* margin: 0px 240px 128px 240px; */
 }
 
 .delivery-section div {
@@ -126,9 +136,9 @@ body {
 .hot-deals-section {
     background: rgba(229, 84, 115, 0.10);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 30px 240px 0px 240px;
+    /* padding: 30px 240px 0px 240px; */
 }
 
 .hot-deals-info {
@@ -163,8 +173,9 @@ body {
 .latest-deals-section {
     border-radius: 8px;
     background: url('../images/Rectangle\ 9.png'), lightgray 0px -203.444px / 100% 213.755% no-repeat;
-    margin: 0px 240px 128px 240px;
+    /* margin: 0px 240px 128px 240px; */
     text-align: center;
+    margin-bottom: 128px;
 }
 
 .latest-deals-section h3 {
@@ -206,7 +217,7 @@ body {
     margin-bottom: 40px;
 }
 .photo-collage{
-    margin-right: -5px;
+    margin-right: -25px;
 }
 
 .photo-collage img {
